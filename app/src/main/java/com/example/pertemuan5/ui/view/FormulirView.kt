@@ -66,6 +66,11 @@ fun FormulirView(
         )
         TextField(
             value = nim,
+            onValueChange = {nim = it},
+            modifier = Modifier.fillMaxWidth().padding(5.dp),
+            label = {
+                Text("NIM")
+            },
         )
 
         Row {
