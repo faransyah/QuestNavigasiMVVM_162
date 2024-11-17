@@ -45,7 +45,7 @@ fun FormulirView(
 
     var jenisK by remember { mutableStateOf("")}
 
-    var listData:MutableList<String> = mutableListOf(nama, jenisK, alamat, nim)
+    var listData:MutableList<String> = mutableListOf(nama, jenisK, alamat, nim, email, noHp)
 
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp),

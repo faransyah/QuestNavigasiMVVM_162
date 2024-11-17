@@ -16,37 +16,33 @@ import com.example.pertemuan5.model.Mahasiswa
 @Composable
 fun TampilMahasiswaView(
     mhs: Mahasiswa
-){
-Column(modifier = Modifier.fillMaxSize()) {
-    TampilData(
-        judul = "nama",
-        isinya = mhs.nama
-    )
-    TampilData(
-        judul = "gender",
-        isinya = mhs.gender
-    )
-    TampilData(
-        judul = "Alamat",
-        isinya = mhs.alamat
-    )
-    TampilData(
-        judul = "NIM",
-        isinya = mhs.nim
-    )
-    TampilData(
-        judul = "Email",
-        isinya = mhs.email
-    )
-    TampilData(
-        judul = "No HP",
-        isinya = mhs.noHp
-    )
-    TampilData(
-        judul = "Email",
-        isinya = mhs.email
-    )
-}
+) {
+    Column(modifier = Modifier.fillMaxSize()) {
+        TampilData(
+            judul = "nama",
+            isinya = mhs.nama
+        )
+        TampilData(
+            judul = "gender",
+            isinya = mhs.gender
+        )
+        TampilData(
+            judul = "Alamat",
+            isinya = mhs.alamat
+        )
+        TampilData(
+            judul = "NIM",
+            isinya = mhs.nim
+        )
+        TampilData(
+            judul = "No HP",
+            isinya = mhs.noHp
+        )
+        TampilData(
+            judul = "Email",
+            isinya = mhs.email
+        )
+    }
 }
 
 @Composable
