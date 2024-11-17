@@ -71,6 +71,9 @@ fun FormulirView(
             label = {
                 Text("NIM")
             },
+            placeholder ={
+               Text("Masukkan NIM Anda")
+            }
         )
 
         Row {
@@ -93,7 +96,7 @@ fun FormulirView(
             placeholder = {
                 Text("Masukkan Email Anda")
             },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number )
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email )
         )
         TextField(
             value = noHp,
