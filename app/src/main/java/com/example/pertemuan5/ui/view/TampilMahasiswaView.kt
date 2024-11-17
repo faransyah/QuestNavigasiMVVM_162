@@ -30,6 +30,10 @@ Column(modifier = Modifier.fillMaxSize()) {
         judul = "Alamat",
         isinya = mhs.alamat
     )
+    TampilData(
+        judul = "NIM",
+        isinya = mhs.nim
+    )
 }
 }
 
