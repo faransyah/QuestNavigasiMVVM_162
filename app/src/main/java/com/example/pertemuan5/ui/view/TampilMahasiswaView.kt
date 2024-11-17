@@ -47,7 +47,7 @@ fun TampilMahasiswaView(
         )
         Button(onClick = { navController.popBackStack() },
             modifier = Modifier.padding(16.dp)) {
-            Text("Back")
+            Text("Backk")
         }
     }
 }
