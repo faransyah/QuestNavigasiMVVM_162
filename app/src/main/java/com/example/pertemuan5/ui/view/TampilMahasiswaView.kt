@@ -38,6 +38,14 @@ Column(modifier = Modifier.fillMaxSize()) {
         judul = "Email",
         isinya = mhs.email
     )
+    TampilData(
+        judul = "No HP",
+        isinya = mhs.noHp
+    )
+    TampilData(
+        judul = "Email",
+        isinya = mhs.email
+    )
 }
 }
 
